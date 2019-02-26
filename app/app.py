@@ -69,4 +69,5 @@ b1=Button(window,text="Close", command=dnslookup)
 b1.grid(row=12,column=10)
 
 #Creates Tkinter window
-window.mainloop()
+if __name__ == "__main__":
+    window.mainloop()
